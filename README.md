@@ -1,10 +1,8 @@
-# 📦 Sistema de Estoque — Loja
+#  Sistema de Estoque — Loja
 
 Sistema CRUD de estoque via terminal, construído em Python puro com SQLite3.
 
----
-
-## 🚀 Como executar
+##  Como executar
 
 ```bash
 # Clone o repositório
@@ -15,10 +13,8 @@ cd estoque-loja
 python main.py
 ```
 
----
 
-## 🗂 Estrutura do projeto
-
+##  Estrutura do projeto
 ```
 estoque-loja/
 ├── database/
@@ -36,9 +32,8 @@ estoque-loja/
 └── requirements.txt        # Sem dependências externas
 ```
 
----
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 ### Produtos
 - Cadastrar produto (nome, preço, quantidade, categoria)
@@ -54,9 +49,8 @@ estoque-loja/
 - Alerta de estoque baixo (limite configurável)
 - Resumo financeiro do estoque
 
----
 
-## 🗄 Banco de dados
+## Banco de dados
 
 ### Tabela `produtos`
 | Campo      | Tipo    | Descrição              |
@@ -76,18 +70,15 @@ estoque-loja/
 | quantidade | INTEGER | > 0                         |
 | data_hora  | TEXT    | datetime local automático   |
 
----
 
-## 🏗 Arquitetura
+## Arquitetura
 
 - **Procedural** — sem classes ou OOP
 - **Modular** — cada camada com responsabilidade única
 - **SQL parametrizado** — sem risco de SQL injection
 - **Tratamento de erros** — try/except em todas operações críticas
 
----
-
-## 🤝 Contribuindo
+##  Contribuindo
 
 ```bash
 # Crie sua branch
