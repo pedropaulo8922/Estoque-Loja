@@ -1,0 +1,2 @@
+# Sem dependências externas — apenas biblioteca padrão do Python 3
+# python >= 3.8
